@@ -1,0 +1,3 @@
+﻿  SoloRenderer.cpp
+C:\Users\JoyJa\OneDrive\Masaüstü\SoloRenderer\SoloRenderer\src\VertexBufferLayout.h(21): warning C4715: 'VertexBufferElement::GetSizeOfType': not all control paths return a value
+  SoloRenderer.vcxproj -> C:\Users\JoyJa\OneDrive\Masaüstü\SoloRenderer\Debug\SoloRenderer.exe
