@@ -1,0 +1,10 @@
+^C:\USERS\JOYJACKSOON\DESKTOP\SOLO\SOLO-APP\CMAKELISTS.TXT
+setlocal
+C:\MinGW\mingw64\bin\cmake.exe -SC:/Users/JoyJacksoon/Desktop/Solo -BC:/Users/JoyJacksoon/Desktop/Solo/build --check-stamp-file C:/Users/JoyJacksoon/Desktop/Solo/build/Solo-App/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,1 @@
+build\Solo-App\Debug\SoloApp.exe
