@@ -7,48 +7,48 @@
     <ResolveNugetPackages>false</ResolveNugetPackages>
   </PropertyGroup>
   <ItemGroup Label="ProjectConfigurations">
-    <ProjectConfiguration Include="Debug|win32">
+    <ProjectConfiguration Include="Debug|x64">
       <Configuration>Debug</Configuration>
-      <Platform>win32</Platform>
+      <Platform>x64</Platform>
     </ProjectConfiguration>
-    <ProjectConfiguration Include="Release|win32">
+    <ProjectConfiguration Include="Release|x64">
       <Configuration>Release</Configuration>
-      <Platform>win32</Platform>
+      <Platform>x64</Platform>
     </ProjectConfiguration>
-    <ProjectConfiguration Include="MinSizeRel|win32">
+    <ProjectConfiguration Include="MinSizeRel|x64">
       <Configuration>MinSizeRel</Configuration>
-      <Platform>win32</Platform>
+      <Platform>x64</Platform>
     </ProjectConfiguration>
-    <ProjectConfiguration Include="RelWithDebInfo|win32">
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
       <Configuration>RelWithDebInfo</Configuration>
-      <Platform>win32</Platform>
+      <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{985499B5-2302-39E1-B862-1EF68411E5C8}</ProjectGuid>
+    <ProjectGuid>{4C4DAA83-C8AF-3215-B03C-B1E723BAD297}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.22000.0</WindowsTargetPlatformVersion>
-    <Platform>win32</Platform>
+    <Platform>x64</Platform>
     <ProjectName>ZERO_CHECK</ProjectName>
     <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|win32'" Label="Configuration">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
     <ConfigurationType>Utility</ConfigurationType>
     <CharacterSet>MultiByte</CharacterSet>
     <PlatformToolset>v143</PlatformToolset>
   </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|win32'" Label="Configuration">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
     <ConfigurationType>Utility</ConfigurationType>
     <CharacterSet>MultiByte</CharacterSet>
     <PlatformToolset>v143</PlatformToolset>
   </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'" Label="Configuration">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
     <ConfigurationType>Utility</ConfigurationType>
     <CharacterSet>MultiByte</CharacterSet>
     <PlatformToolset>v143</PlatformToolset>
   </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'" Label="Configuration">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
     <ConfigurationType>Utility</ConfigurationType>
     <CharacterSet>MultiByte</CharacterSet>
     <PlatformToolset>v143</PlatformToolset>
@@ -62,12 +62,12 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
-    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
-    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
-    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
   </PropertyGroup>
-  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <Midl>
       <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
@@ -77,7 +77,7 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
   </ItemDefinitionGroup>
-  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|win32'">
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <Midl>
       <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
@@ -87,7 +87,7 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
   </ItemDefinitionGroup>
-  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <Midl>
       <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
@@ -97,7 +97,7 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
   </ItemDefinitionGroup>
-  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <Midl>
       <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
@@ -108,11 +108,11 @@
     </Midl>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\JoyJacksoon\Desktop\Solo\build\CMakeFiles\e90cadf6f9fd9652f4fa1696d7eb6287\generate.stamp.rule">
+    <CustomBuild Include="C:\Users\JoyJacksoon\Desktop\Solo-Renderer\build\CMakeFiles\67f6226972b803857d5711d9fc9441c0\generate.stamp.rule">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">Checking Build System</Message>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">setlocal
-C:\MinGW\mingw64\bin\cmake.exe -SC:/Users/JoyJacksoon/Desktop/Solo -BC:/Users/JoyJacksoon/Desktop/Solo/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/JoyJacksoon/Desktop/Solo/build/Solo.sln
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+C:\MinGW\mingw64\bin\cmake.exe -SC:/Users/JoyJacksoon/Desktop/Solo-Renderer -BC:/Users/JoyJacksoon/Desktop/Solo-Renderer/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/JoyJacksoon/Desktop/Solo-Renderer/build/Solo.sln
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -120,12 +120,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\MinGW\mingw64\share\cmake-3.26\Modules\CMakeCInformation.cmake;C:\MinGW\mingw64\share\cmake-3.26\Modules\CMakeCXXInformation.cmake;C:\MinGW\mingw64\share\cmake-3.26\Modules\CMakeCommonLanguageInclude.cmake;C:\MinGW\mingw64\share\cmake-3.26\Modules\CMakeGenericSystem.cmake;C:\MinGW\mingw64\share\cmake-3.26\Modules\CMakeInitializeConfigs.cmake;C:\MinGW\mingw64\share\cmake-3.26\Modules\CMakeLanguageInformation.cmake;C:\MinGW\mingw64\share\cmake-3.26\Modules\CMakeRCInformation.cmake;C:\MinGW\mingw64\share\cmake-3.26\Modules\CMakeSystemSpecificInformation.cmake;C:\MinGW\mingw64\share\cmake-3.26\Modules\CMakeSystemSpecificInitialize.cmake;C:\MinGW\mingw64\share\cmake-3.26\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\MinGW\mingw64\share\cmake-3.26\Modules\Compiler\MSVC-C.cmake;C:\MinGW\mingw64\share\cmake-3.26\Modules\Compiler\MSVC-CXX.cmake;C:\MinGW\mingw64\share\cmake-3.26\Modules\Compiler\MSVC.cmake;C:\MinGW\mingw64\share\cmake-3.26\Modules\Platform\Windows-MSVC-C.cmake;C:\MinGW\mingw64\share\cmake-3.26\Modules\Platform\Windows-MSVC-CXX.cmake;C:\MinGW\mingw64\share\cmake-3.26\Modules\Platform\Windows-MSVC.cmake;C:\MinGW\mingw64\share\cmake-3.26\Modules\Platform\Windows.cmake;C:\MinGW\mingw64\share\cmake-3.26\Modules\Platform\WindowsPaths.cmake;C:\Users\JoyJacksoon\Desktop\Solo\CMakeLists.txt;C:\Users\JoyJacksoon\Desktop\Solo\Solo-App\CMakeLists.txt;C:\Users\JoyJacksoon\Desktop\Solo\Solo-Core\CMakeLists.txt;C:\Users\JoyJacksoon\Desktop\Solo\build\CMakeFiles\3.26.3\CMakeCCompiler.cmake;C:\Users\JoyJacksoon\Desktop\Solo\build\CMakeFiles\3.26.3\CMakeCXXCompiler.cmake;C:\Users\JoyJacksoon\Desktop\Solo\build\CMakeFiles\3.26.3\CMakeRCCompiler.cmake;C:\Users\JoyJacksoon\Desktop\Solo\build\CMakeFiles\3.26.3\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\JoyJacksoon\Desktop\Solo\build\CMakeFiles\generate.stamp;C:\Users\JoyJacksoon\Desktop\Solo\build\Solo-App\CMakeFiles\generate.stamp;C:\Users\JoyJacksoon\Desktop\Solo\build\Solo-Core\CMakeFiles\generate.stamp</Outputs>
-      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|win32'">Checking Build System</Message>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release|win32'">setlocal
-C:\MinGW\mingw64\bin\cmake.exe -SC:/Users/JoyJacksoon/Desktop/Solo -BC:/Users/JoyJacksoon/Desktop/Solo/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/JoyJacksoon/Desktop/Solo/build/Solo.sln
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\MinGW\mingw64\share\cmake-3.26\Modules\CMakeCInformation.cmake;C:\MinGW\mingw64\share\cmake-3.26\Modules\CMakeCXXInformation.cmake;C:\MinGW\mingw64\share\cmake-3.26\Modules\CMakeCommonLanguageInclude.cmake;C:\MinGW\mingw64\share\cmake-3.26\Modules\CMakeGenericSystem.cmake;C:\MinGW\mingw64\share\cmake-3.26\Modules\CMakeInitializeConfigs.cmake;C:\MinGW\mingw64\share\cmake-3.26\Modules\CMakeLanguageInformation.cmake;C:\MinGW\mingw64\share\cmake-3.26\Modules\CMakeRCInformation.cmake;C:\MinGW\mingw64\share\cmake-3.26\Modules\CMakeSystemSpecificInformation.cmake;C:\MinGW\mingw64\share\cmake-3.26\Modules\CMakeSystemSpecificInitialize.cmake;C:\MinGW\mingw64\share\cmake-3.26\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\MinGW\mingw64\share\cmake-3.26\Modules\Compiler\MSVC-C.cmake;C:\MinGW\mingw64\share\cmake-3.26\Modules\Compiler\MSVC-CXX.cmake;C:\MinGW\mingw64\share\cmake-3.26\Modules\Compiler\MSVC.cmake;C:\MinGW\mingw64\share\cmake-3.26\Modules\Platform\Windows-MSVC-C.cmake;C:\MinGW\mingw64\share\cmake-3.26\Modules\Platform\Windows-MSVC-CXX.cmake;C:\MinGW\mingw64\share\cmake-3.26\Modules\Platform\Windows-MSVC.cmake;C:\MinGW\mingw64\share\cmake-3.26\Modules\Platform\Windows.cmake;C:\MinGW\mingw64\share\cmake-3.26\Modules\Platform\WindowsPaths.cmake;C:\Users\JoyJacksoon\Desktop\Solo-Renderer\CMakeLists.txt;C:\Users\JoyJacksoon\Desktop\Solo-Renderer\Solo-App\CMakeLists.txt;C:\Users\JoyJacksoon\Desktop\Solo-Renderer\Solo-Core\CMakeLists.txt;C:\Users\JoyJacksoon\Desktop\Solo-Renderer\build\CMakeFiles\3.26.3\CMakeCCompiler.cmake;C:\Users\JoyJacksoon\Desktop\Solo-Renderer\build\CMakeFiles\3.26.3\CMakeCXXCompiler.cmake;C:\Users\JoyJacksoon\Desktop\Solo-Renderer\build\CMakeFiles\3.26.3\CMakeRCCompiler.cmake;C:\Users\JoyJacksoon\Desktop\Solo-Renderer\build\CMakeFiles\3.26.3\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\JoyJacksoon\Desktop\Solo-Renderer\build\CMakeFiles\generate.stamp;C:\Users\JoyJacksoon\Desktop\Solo-Renderer\build\Solo-App\CMakeFiles\generate.stamp;C:\Users\JoyJacksoon\Desktop\Solo-Renderer\build\Solo-Core\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+C:\MinGW\mingw64\bin\cmake.exe -SC:/Users/JoyJacksoon/Desktop/Solo-Renderer -BC:/Users/JoyJacksoon/Desktop/Solo-Renderer/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/JoyJacksoon/Desktop/Solo-Renderer/build/Solo.sln
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -133,12 +133,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|win32'">C:\MinGW\mingw64\share\cmake-3.26\Modules\CMakeCInformation.cmake;C:\MinGW\mingw64\share\cmake-3.26\Modules\CMakeCXXInformation.cmake;C:\MinGW\mingw64\share\cmake-3.26\Modules\CMakeCommonLanguageInclude.cmake;C:\MinGW\mingw64\share\cmake-3.26\Modules\CMakeGenericSystem.cmake;C:\MinGW\mingw64\share\cmake-3.26\Modules\CMakeInitializeConfigs.cmake;C:\MinGW\mingw64\share\cmake-3.26\Modules\CMakeLanguageInformation.cmake;C:\MinGW\mingw64\share\cmake-3.26\Modules\CMakeRCInformation.cmake;C:\MinGW\mingw64\share\cmake-3.26\Modules\CMakeSystemSpecificInformation.cmake;C:\MinGW\mingw64\share\cmake-3.26\Modules\CMakeSystemSpecificInitialize.cmake;C:\MinGW\mingw64\share\cmake-3.26\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\MinGW\mingw64\share\cmake-3.26\Modules\Compiler\MSVC-C.cmake;C:\MinGW\mingw64\share\cmake-3.26\Modules\Compiler\MSVC-CXX.cmake;C:\MinGW\mingw64\share\cmake-3.26\Modules\Compiler\MSVC.cmake;C:\MinGW\mingw64\share\cmake-3.26\Modules\Platform\Windows-MSVC-C.cmake;C:\MinGW\mingw64\share\cmake-3.26\Modules\Platform\Windows-MSVC-CXX.cmake;C:\MinGW\mingw64\share\cmake-3.26\Modules\Platform\Windows-MSVC.cmake;C:\MinGW\mingw64\share\cmake-3.26\Modules\Platform\Windows.cmake;C:\MinGW\mingw64\share\cmake-3.26\Modules\Platform\WindowsPaths.cmake;C:\Users\JoyJacksoon\Desktop\Solo\CMakeLists.txt;C:\Users\JoyJacksoon\Desktop\Solo\Solo-App\CMakeLists.txt;C:\Users\JoyJacksoon\Desktop\Solo\Solo-Core\CMakeLists.txt;C:\Users\JoyJacksoon\Desktop\Solo\build\CMakeFiles\3.26.3\CMakeCCompiler.cmake;C:\Users\JoyJacksoon\Desktop\Solo\build\CMakeFiles\3.26.3\CMakeCXXCompiler.cmake;C:\Users\JoyJacksoon\Desktop\Solo\build\CMakeFiles\3.26.3\CMakeRCCompiler.cmake;C:\Users\JoyJacksoon\Desktop\Solo\build\CMakeFiles\3.26.3\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|win32'">C:\Users\JoyJacksoon\Desktop\Solo\build\CMakeFiles\generate.stamp;C:\Users\JoyJacksoon\Desktop\Solo\build\Solo-App\CMakeFiles\generate.stamp;C:\Users\JoyJacksoon\Desktop\Solo\build\Solo-Core\CMakeFiles\generate.stamp</Outputs>
-      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">Checking Build System</Message>
-      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">setlocal
-C:\MinGW\mingw64\bin\cmake.exe -SC:/Users/JoyJacksoon/Desktop/Solo -BC:/Users/JoyJacksoon/Desktop/Solo/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/JoyJacksoon/Desktop/Solo/build/Solo.sln
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\MinGW\mingw64\share\cmake-3.26\Modules\CMakeCInformation.cmake;C:\MinGW\mingw64\share\cmake-3.26\Modules\CMakeCXXInformation.cmake;C:\MinGW\mingw64\share\cmake-3.26\Modules\CMakeCommonLanguageInclude.cmake;C:\MinGW\mingw64\share\cmake-3.26\Modules\CMakeGenericSystem.cmake;C:\MinGW\mingw64\share\cmake-3.26\Modules\CMakeInitializeConfigs.cmake;C:\MinGW\mingw64\share\cmake-3.26\Modules\CMakeLanguageInformation.cmake;C:\MinGW\mingw64\share\cmake-3.26\Modules\CMakeRCInformation.cmake;C:\MinGW\mingw64\share\cmake-3.26\Modules\CMakeSystemSpecificInformation.cmake;C:\MinGW\mingw64\share\cmake-3.26\Modules\CMakeSystemSpecificInitialize.cmake;C:\MinGW\mingw64\share\cmake-3.26\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\MinGW\mingw64\share\cmake-3.26\Modules\Compiler\MSVC-C.cmake;C:\MinGW\mingw64\share\cmake-3.26\Modules\Compiler\MSVC-CXX.cmake;C:\MinGW\mingw64\share\cmake-3.26\Modules\Compiler\MSVC.cmake;C:\MinGW\mingw64\share\cmake-3.26\Modules\Platform\Windows-MSVC-C.cmake;C:\MinGW\mingw64\share\cmake-3.26\Modules\Platform\Windows-MSVC-CXX.cmake;C:\MinGW\mingw64\share\cmake-3.26\Modules\Platform\Windows-MSVC.cmake;C:\MinGW\mingw64\share\cmake-3.26\Modules\Platform\Windows.cmake;C:\MinGW\mingw64\share\cmake-3.26\Modules\Platform\WindowsPaths.cmake;C:\Users\JoyJacksoon\Desktop\Solo-Renderer\CMakeLists.txt;C:\Users\JoyJacksoon\Desktop\Solo-Renderer\Solo-App\CMakeLists.txt;C:\Users\JoyJacksoon\Desktop\Solo-Renderer\Solo-Core\CMakeLists.txt;C:\Users\JoyJacksoon\Desktop\Solo-Renderer\build\CMakeFiles\3.26.3\CMakeCCompiler.cmake;C:\Users\JoyJacksoon\Desktop\Solo-Renderer\build\CMakeFiles\3.26.3\CMakeCXXCompiler.cmake;C:\Users\JoyJacksoon\Desktop\Solo-Renderer\build\CMakeFiles\3.26.3\CMakeRCCompiler.cmake;C:\Users\JoyJacksoon\Desktop\Solo-Renderer\build\CMakeFiles\3.26.3\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\JoyJacksoon\Desktop\Solo-Renderer\build\CMakeFiles\generate.stamp;C:\Users\JoyJacksoon\Desktop\Solo-Renderer\build\Solo-App\CMakeFiles\generate.stamp;C:\Users\JoyJacksoon\Desktop\Solo-Renderer\build\Solo-Core\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+C:\MinGW\mingw64\bin\cmake.exe -SC:/Users/JoyJacksoon/Desktop/Solo-Renderer -BC:/Users/JoyJacksoon/Desktop/Solo-Renderer/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/JoyJacksoon/Desktop/Solo-Renderer/build/Solo.sln
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -146,12 +146,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">C:\MinGW\mingw64\share\cmake-3.26\Modules\CMakeCInformation.cmake;C:\MinGW\mingw64\share\cmake-3.26\Modules\CMakeCXXInformation.cmake;C:\MinGW\mingw64\share\cmake-3.26\Modules\CMakeCommonLanguageInclude.cmake;C:\MinGW\mingw64\share\cmake-3.26\Modules\CMakeGenericSystem.cmake;C:\MinGW\mingw64\share\cmake-3.26\Modules\CMakeInitializeConfigs.cmake;C:\MinGW\mingw64\share\cmake-3.26\Modules\CMakeLanguageInformation.cmake;C:\MinGW\mingw64\share\cmake-3.26\Modules\CMakeRCInformation.cmake;C:\MinGW\mingw64\share\cmake-3.26\Modules\CMakeSystemSpecificInformation.cmake;C:\MinGW\mingw64\share\cmake-3.26\Modules\CMakeSystemSpecificInitialize.cmake;C:\MinGW\mingw64\share\cmake-3.26\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\MinGW\mingw64\share\cmake-3.26\Modules\Compiler\MSVC-C.cmake;C:\MinGW\mingw64\share\cmake-3.26\Modules\Compiler\MSVC-CXX.cmake;C:\MinGW\mingw64\share\cmake-3.26\Modules\Compiler\MSVC.cmake;C:\MinGW\mingw64\share\cmake-3.26\Modules\Platform\Windows-MSVC-C.cmake;C:\MinGW\mingw64\share\cmake-3.26\Modules\Platform\Windows-MSVC-CXX.cmake;C:\MinGW\mingw64\share\cmake-3.26\Modules\Platform\Windows-MSVC.cmake;C:\MinGW\mingw64\share\cmake-3.26\Modules\Platform\Windows.cmake;C:\MinGW\mingw64\share\cmake-3.26\Modules\Platform\WindowsPaths.cmake;C:\Users\JoyJacksoon\Desktop\Solo\CMakeLists.txt;C:\Users\JoyJacksoon\Desktop\Solo\Solo-App\CMakeLists.txt;C:\Users\JoyJacksoon\Desktop\Solo\Solo-Core\CMakeLists.txt;C:\Users\JoyJacksoon\Desktop\Solo\build\CMakeFiles\3.26.3\CMakeCCompiler.cmake;C:\Users\JoyJacksoon\Desktop\Solo\build\CMakeFiles\3.26.3\CMakeCXXCompiler.cmake;C:\Users\JoyJacksoon\Desktop\Solo\build\CMakeFiles\3.26.3\CMakeRCCompiler.cmake;C:\Users\JoyJacksoon\Desktop\Solo\build\CMakeFiles\3.26.3\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">C:\Users\JoyJacksoon\Desktop\Solo\build\CMakeFiles\generate.stamp;C:\Users\JoyJacksoon\Desktop\Solo\build\Solo-App\CMakeFiles\generate.stamp;C:\Users\JoyJacksoon\Desktop\Solo\build\Solo-Core\CMakeFiles\generate.stamp</Outputs>
-      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">Checking Build System</Message>
-      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">setlocal
-C:\MinGW\mingw64\bin\cmake.exe -SC:/Users/JoyJacksoon/Desktop/Solo -BC:/Users/JoyJacksoon/Desktop/Solo/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/JoyJacksoon/Desktop/Solo/build/Solo.sln
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\MinGW\mingw64\share\cmake-3.26\Modules\CMakeCInformation.cmake;C:\MinGW\mingw64\share\cmake-3.26\Modules\CMakeCXXInformation.cmake;C:\MinGW\mingw64\share\cmake-3.26\Modules\CMakeCommonLanguageInclude.cmake;C:\MinGW\mingw64\share\cmake-3.26\Modules\CMakeGenericSystem.cmake;C:\MinGW\mingw64\share\cmake-3.26\Modules\CMakeInitializeConfigs.cmake;C:\MinGW\mingw64\share\cmake-3.26\Modules\CMakeLanguageInformation.cmake;C:\MinGW\mingw64\share\cmake-3.26\Modules\CMakeRCInformation.cmake;C:\MinGW\mingw64\share\cmake-3.26\Modules\CMakeSystemSpecificInformation.cmake;C:\MinGW\mingw64\share\cmake-3.26\Modules\CMakeSystemSpecificInitialize.cmake;C:\MinGW\mingw64\share\cmake-3.26\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\MinGW\mingw64\share\cmake-3.26\Modules\Compiler\MSVC-C.cmake;C:\MinGW\mingw64\share\cmake-3.26\Modules\Compiler\MSVC-CXX.cmake;C:\MinGW\mingw64\share\cmake-3.26\Modules\Compiler\MSVC.cmake;C:\MinGW\mingw64\share\cmake-3.26\Modules\Platform\Windows-MSVC-C.cmake;C:\MinGW\mingw64\share\cmake-3.26\Modules\Platform\Windows-MSVC-CXX.cmake;C:\MinGW\mingw64\share\cmake-3.26\Modules\Platform\Windows-MSVC.cmake;C:\MinGW\mingw64\share\cmake-3.26\Modules\Platform\Windows.cmake;C:\MinGW\mingw64\share\cmake-3.26\Modules\Platform\WindowsPaths.cmake;C:\Users\JoyJacksoon\Desktop\Solo-Renderer\CMakeLists.txt;C:\Users\JoyJacksoon\Desktop\Solo-Renderer\Solo-App\CMakeLists.txt;C:\Users\JoyJacksoon\Desktop\Solo-Renderer\Solo-Core\CMakeLists.txt;C:\Users\JoyJacksoon\Desktop\Solo-Renderer\build\CMakeFiles\3.26.3\CMakeCCompiler.cmake;C:\Users\JoyJacksoon\Desktop\Solo-Renderer\build\CMakeFiles\3.26.3\CMakeCXXCompiler.cmake;C:\Users\JoyJacksoon\Desktop\Solo-Renderer\build\CMakeFiles\3.26.3\CMakeRCCompiler.cmake;C:\Users\JoyJacksoon\Desktop\Solo-Renderer\build\CMakeFiles\3.26.3\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\JoyJacksoon\Desktop\Solo-Renderer\build\CMakeFiles\generate.stamp;C:\Users\JoyJacksoon\Desktop\Solo-Renderer\build\Solo-App\CMakeFiles\generate.stamp;C:\Users\JoyJacksoon\Desktop\Solo-Renderer\build\Solo-Core\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+C:\MinGW\mingw64\bin\cmake.exe -SC:/Users/JoyJacksoon/Desktop/Solo-Renderer -BC:/Users/JoyJacksoon/Desktop/Solo-Renderer/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/JoyJacksoon/Desktop/Solo-Renderer/build/Solo.sln
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -159,9 +159,9 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">C:\MinGW\mingw64\share\cmake-3.26\Modules\CMakeCInformation.cmake;C:\MinGW\mingw64\share\cmake-3.26\Modules\CMakeCXXInformation.cmake;C:\MinGW\mingw64\share\cmake-3.26\Modules\CMakeCommonLanguageInclude.cmake;C:\MinGW\mingw64\share\cmake-3.26\Modules\CMakeGenericSystem.cmake;C:\MinGW\mingw64\share\cmake-3.26\Modules\CMakeInitializeConfigs.cmake;C:\MinGW\mingw64\share\cmake-3.26\Modules\CMakeLanguageInformation.cmake;C:\MinGW\mingw64\share\cmake-3.26\Modules\CMakeRCInformation.cmake;C:\MinGW\mingw64\share\cmake-3.26\Modules\CMakeSystemSpecificInformation.cmake;C:\MinGW\mingw64\share\cmake-3.26\Modules\CMakeSystemSpecificInitialize.cmake;C:\MinGW\mingw64\share\cmake-3.26\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\MinGW\mingw64\share\cmake-3.26\Modules\Compiler\MSVC-C.cmake;C:\MinGW\mingw64\share\cmake-3.26\Modules\Compiler\MSVC-CXX.cmake;C:\MinGW\mingw64\share\cmake-3.26\Modules\Compiler\MSVC.cmake;C:\MinGW\mingw64\share\cmake-3.26\Modules\Platform\Windows-MSVC-C.cmake;C:\MinGW\mingw64\share\cmake-3.26\Modules\Platform\Windows-MSVC-CXX.cmake;C:\MinGW\mingw64\share\cmake-3.26\Modules\Platform\Windows-MSVC.cmake;C:\MinGW\mingw64\share\cmake-3.26\Modules\Platform\Windows.cmake;C:\MinGW\mingw64\share\cmake-3.26\Modules\Platform\WindowsPaths.cmake;C:\Users\JoyJacksoon\Desktop\Solo\CMakeLists.txt;C:\Users\JoyJacksoon\Desktop\Solo\Solo-App\CMakeLists.txt;C:\Users\JoyJacksoon\Desktop\Solo\Solo-Core\CMakeLists.txt;C:\Users\JoyJacksoon\Desktop\Solo\build\CMakeFiles\3.26.3\CMakeCCompiler.cmake;C:\Users\JoyJacksoon\Desktop\Solo\build\CMakeFiles\3.26.3\CMakeCXXCompiler.cmake;C:\Users\JoyJacksoon\Desktop\Solo\build\CMakeFiles\3.26.3\CMakeRCCompiler.cmake;C:\Users\JoyJacksoon\Desktop\Solo\build\CMakeFiles\3.26.3\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">C:\Users\JoyJacksoon\Desktop\Solo\build\CMakeFiles\generate.stamp;C:\Users\JoyJacksoon\Desktop\Solo\build\Solo-App\CMakeFiles\generate.stamp;C:\Users\JoyJacksoon\Desktop\Solo\build\Solo-Core\CMakeFiles\generate.stamp</Outputs>
-      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">false</LinkObjects>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\MinGW\mingw64\share\cmake-3.26\Modules\CMakeCInformation.cmake;C:\MinGW\mingw64\share\cmake-3.26\Modules\CMakeCXXInformation.cmake;C:\MinGW\mingw64\share\cmake-3.26\Modules\CMakeCommonLanguageInclude.cmake;C:\MinGW\mingw64\share\cmake-3.26\Modules\CMakeGenericSystem.cmake;C:\MinGW\mingw64\share\cmake-3.26\Modules\CMakeInitializeConfigs.cmake;C:\MinGW\mingw64\share\cmake-3.26\Modules\CMakeLanguageInformation.cmake;C:\MinGW\mingw64\share\cmake-3.26\Modules\CMakeRCInformation.cmake;C:\MinGW\mingw64\share\cmake-3.26\Modules\CMakeSystemSpecificInformation.cmake;C:\MinGW\mingw64\share\cmake-3.26\Modules\CMakeSystemSpecificInitialize.cmake;C:\MinGW\mingw64\share\cmake-3.26\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\MinGW\mingw64\share\cmake-3.26\Modules\Compiler\MSVC-C.cmake;C:\MinGW\mingw64\share\cmake-3.26\Modules\Compiler\MSVC-CXX.cmake;C:\MinGW\mingw64\share\cmake-3.26\Modules\Compiler\MSVC.cmake;C:\MinGW\mingw64\share\cmake-3.26\Modules\Platform\Windows-MSVC-C.cmake;C:\MinGW\mingw64\share\cmake-3.26\Modules\Platform\Windows-MSVC-CXX.cmake;C:\MinGW\mingw64\share\cmake-3.26\Modules\Platform\Windows-MSVC.cmake;C:\MinGW\mingw64\share\cmake-3.26\Modules\Platform\Windows.cmake;C:\MinGW\mingw64\share\cmake-3.26\Modules\Platform\WindowsPaths.cmake;C:\Users\JoyJacksoon\Desktop\Solo-Renderer\CMakeLists.txt;C:\Users\JoyJacksoon\Desktop\Solo-Renderer\Solo-App\CMakeLists.txt;C:\Users\JoyJacksoon\Desktop\Solo-Renderer\Solo-Core\CMakeLists.txt;C:\Users\JoyJacksoon\Desktop\Solo-Renderer\build\CMakeFiles\3.26.3\CMakeCCompiler.cmake;C:\Users\JoyJacksoon\Desktop\Solo-Renderer\build\CMakeFiles\3.26.3\CMakeCXXCompiler.cmake;C:\Users\JoyJacksoon\Desktop\Solo-Renderer\build\CMakeFiles\3.26.3\CMakeRCCompiler.cmake;C:\Users\JoyJacksoon\Desktop\Solo-Renderer\build\CMakeFiles\3.26.3\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\JoyJacksoon\Desktop\Solo-Renderer\build\CMakeFiles\generate.stamp;C:\Users\JoyJacksoon\Desktop\Solo-Renderer\build\Solo-App\CMakeFiles\generate.stamp;C:\Users\JoyJacksoon\Desktop\Solo-Renderer\build\Solo-Core\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>

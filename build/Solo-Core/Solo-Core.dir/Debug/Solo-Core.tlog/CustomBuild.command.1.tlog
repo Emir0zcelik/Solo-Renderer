@@ -1,6 +1,6 @@
-^C:\USERS\JOYJACKSOON\DESKTOP\SOLO\SOLO-CORE\CMAKELISTS.TXT
+^C:\USERS\JOYJACKSOON\DESKTOP\SOLO-RENDERER\SOLO-CORE\CMAKELISTS.TXT
 setlocal
-C:\MinGW\mingw64\bin\cmake.exe -SC:/Users/JoyJacksoon/Desktop/Solo -BC:/Users/JoyJacksoon/Desktop/Solo/build --check-stamp-file C:/Users/JoyJacksoon/Desktop/Solo/build/Solo-Core/CMakeFiles/generate.stamp
+C:\MinGW\mingw64\bin\cmake.exe -SC:/Users/JoyJacksoon/Desktop/Solo-Renderer -BC:/Users/JoyJacksoon/Desktop/Solo-Renderer/build --check-stamp-file C:/Users/JoyJacksoon/Desktop/Solo-Renderer/build/Solo-Core/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone

@@ -24,43 +24,43 @@ events:
       The output was:
       0
       MSBuild version 17.6.3+07e294721 for .NET Framework
-      Oluşturma başlatıldı: 2/27/2024 9:14:04 PM.
+      Oluşturma başlatıldı: 2/27/2024 9:51:02 PM.
       
-      1 düğümünde "C:\\Users\\JoyJacksoon\\Desktop\\Solo\\build\\CMakeFiles\\3.26.3\\CompilerIdC\\CompilerIdC.vcxproj" projesi (varsayılan hedefler).
+      1 düğümünde "C:\\Users\\JoyJacksoon\\Desktop\\Solo-Renderer\\build\\CMakeFiles\\3.26.3\\CompilerIdC\\CompilerIdC.vcxproj" projesi (varsayılan hedefler).
       PrepareForBuild:
         "Debug\\" dizini oluşturuluyor.
         "Debug\\CompilerIdC.tlog\\" dizini oluşturuluyor.
       InitializeBuildStatus:
         "AlwaysCreate" belirtildiği için "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" oluşturuluyor.
       VcpkgTripletSelection:
-        Using triplet "x86-windows" from "C:\\Dev\\vcpkg\\installed\\x86-windows\\"
+        Using triplet "x64-windows" from "C:\\Dev\\vcpkg\\installed\\x64-windows\\"
         Using normalized configuration "Release"
       ClCompile:
-        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x86\\CL.exe /c /I"C:\\Dev\\vcpkg\\installed\\x86-windows\\include" /nologo /W0 /WX- /diagnostics:column /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /analyze- /FC /errorReport:queue CMakeCCompilerId.c
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Dev\\vcpkg\\installed\\x64-windows\\include" /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
         CMakeCCompilerId.c
       Link:
-        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x86\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\\Dev\\vcpkg\\installed\\x86-windows\\lib" /LIBPATH:"C:\\Dev\\vcpkg\\installed\\x86-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "C:\\Dev\\vcpkg\\installed\\x86-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X86 /SAFESEH Debug\\CMakeCCompilerId.obj
-        CompilerIdC.vcxproj -> C:\\Users\\JoyJacksoon\\Desktop\\Solo\\build\\CMakeFiles\\3.26.3\\CompilerIdC\\CompilerIdC.exe
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\\Dev\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"C:\\Dev\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "C:\\Dev\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> C:\\Users\\JoyJacksoon\\Desktop\\Solo-Renderer\\build\\CMakeFiles\\3.26.3\\CompilerIdC\\CompilerIdC.exe
       AppLocalFromInstalled:
-        pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Dev\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\JoyJacksoon\\Desktop\\Solo\\build\\CMakeFiles\\3.26.3\\CompilerIdC\\CompilerIdC.exe" "C:\\Dev\\vcpkg\\installed\\x86-windows\\bin" "Debug\\CompilerIdC.tlog\\CompilerIdC.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+        pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Dev\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\JoyJacksoon\\Desktop\\Solo-Renderer\\build\\CMakeFiles\\3.26.3\\CompilerIdC\\CompilerIdC.exe" "C:\\Dev\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdC.tlog\\CompilerIdC.write.1u.tlog" "Debug\\vcpkg.applocal.log"
         'pwsh.exe' is not recognized as an internal or external command,
         operable program or batch file.
-        "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Dev\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\JoyJacksoon\\Desktop\\Solo\\build\\CMakeFiles\\3.26.3\\CompilerIdC\\CompilerIdC.exe" "C:\\Dev\\vcpkg\\installed\\x86-windows\\bin" "Debug\\CompilerIdC.tlog\\CompilerIdC.write.1u.tlog" "Debug\\vcpkg.applocal.log"" komutundan 9009 koduyla çıkıldı.
-        "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\Dev\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\JoyJacksoon\\Desktop\\Solo\\build\\CMakeFiles\\3.26.3\\CompilerIdC\\CompilerIdC.exe" "C:\\Dev\\vcpkg\\installed\\x86-windows\\bin" "Debug\\CompilerIdC.tlog\\CompilerIdC.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+        "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Dev\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\JoyJacksoon\\Desktop\\Solo-Renderer\\build\\CMakeFiles\\3.26.3\\CompilerIdC\\CompilerIdC.exe" "C:\\Dev\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdC.tlog\\CompilerIdC.write.1u.tlog" "Debug\\vcpkg.applocal.log"" komutundan 9009 koduyla çıkıldı.
+        "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\Dev\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\JoyJacksoon\\Desktop\\Solo-Renderer\\build\\CMakeFiles\\3.26.3\\CompilerIdC\\CompilerIdC.exe" "C:\\Dev\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdC.tlog\\CompilerIdC.write.1u.tlog" "Debug\\vcpkg.applocal.log"
       PostBuildEvent:
         for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
         :VCEnd
-        CMAKE_C_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x86\\cl.exe
+        CMAKE_C_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe
       FinalizeBuildStatus:
         "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" dosyası siliniyor.
         "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate" öğesine erişiliyor.
-      "C:\\Users\\JoyJacksoon\\Desktop\\Solo\\build\\CMakeFiles\\3.26.3\\CompilerIdC\\CompilerIdC.vcxproj" Projesini Oluşturma İşlemi Tamamlandı (varsayılan hedefler).
+      "C:\\Users\\JoyJacksoon\\Desktop\\Solo-Renderer\\build\\CMakeFiles\\3.26.3\\CompilerIdC\\CompilerIdC.vcxproj" Projesini Oluşturma İşlemi Tamamlandı (varsayılan hedefler).
       
       Oluşturma başarılı oldu.
           0 Uyarı
           0 Hata
       
-      Geçen Süre 00:00:01.00
+      Geçen Süre 00:00:00.88
       
       
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
@@ -68,7 +68,7 @@ events:
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
       
       The C compiler identification is MSVC, found in:
-        C:/Users/JoyJacksoon/Desktop/Solo/build/CMakeFiles/3.26.3/CompilerIdC/CompilerIdC.exe
+        C:/Users/JoyJacksoon/Desktop/Solo-Renderer/build/CMakeFiles/3.26.3/CompilerIdC/CompilerIdC.exe
       
   -
     kind: "message-v1"
@@ -86,43 +86,43 @@ events:
       The output was:
       0
       MSBuild version 17.6.3+07e294721 for .NET Framework
-      Oluşturma başlatıldı: 2/27/2024 9:14:05 PM.
+      Oluşturma başlatıldı: 2/27/2024 9:51:03 PM.
       
-      1 düğümünde "C:\\Users\\JoyJacksoon\\Desktop\\Solo\\build\\CMakeFiles\\3.26.3\\CompilerIdCXX\\CompilerIdCXX.vcxproj" projesi (varsayılan hedefler).
+      1 düğümünde "C:\\Users\\JoyJacksoon\\Desktop\\Solo-Renderer\\build\\CMakeFiles\\3.26.3\\CompilerIdCXX\\CompilerIdCXX.vcxproj" projesi (varsayılan hedefler).
       PrepareForBuild:
         "Debug\\" dizini oluşturuluyor.
         "Debug\\CompilerIdCXX.tlog\\" dizini oluşturuluyor.
       InitializeBuildStatus:
         "AlwaysCreate" belirtildiği için "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" oluşturuluyor.
       VcpkgTripletSelection:
-        Using triplet "x86-windows" from "C:\\Dev\\vcpkg\\installed\\x86-windows\\"
+        Using triplet "x64-windows" from "C:\\Dev\\vcpkg\\installed\\x64-windows\\"
         Using normalized configuration "Release"
       ClCompile:
-        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x86\\CL.exe /c /I"C:\\Dev\\vcpkg\\installed\\x86-windows\\include" /nologo /W0 /WX- /diagnostics:column /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /analyze- /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Dev\\vcpkg\\installed\\x64-windows\\include" /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
         CMakeCXXCompilerId.cpp
       Link:
-        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x86\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\\Dev\\vcpkg\\installed\\x86-windows\\lib" /LIBPATH:"C:\\Dev\\vcpkg\\installed\\x86-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "C:\\Dev\\vcpkg\\installed\\x86-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X86 /SAFESEH Debug\\CMakeCXXCompilerId.obj
-        CompilerIdCXX.vcxproj -> C:\\Users\\JoyJacksoon\\Desktop\\Solo\\build\\CMakeFiles\\3.26.3\\CompilerIdCXX\\CompilerIdCXX.exe
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\\Dev\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"C:\\Dev\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "C:\\Dev\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\Users\\JoyJacksoon\\Desktop\\Solo-Renderer\\build\\CMakeFiles\\3.26.3\\CompilerIdCXX\\CompilerIdCXX.exe
       AppLocalFromInstalled:
-        pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Dev\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\JoyJacksoon\\Desktop\\Solo\\build\\CMakeFiles\\3.26.3\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\Dev\\vcpkg\\installed\\x86-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+        pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Dev\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\JoyJacksoon\\Desktop\\Solo-Renderer\\build\\CMakeFiles\\3.26.3\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\Dev\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"
         'pwsh.exe' is not recognized as an internal or external command,
         operable program or batch file.
-        "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Dev\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\JoyJacksoon\\Desktop\\Solo\\build\\CMakeFiles\\3.26.3\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\Dev\\vcpkg\\installed\\x86-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"" komutundan 9009 koduyla çıkıldı.
-        "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\Dev\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\JoyJacksoon\\Desktop\\Solo\\build\\CMakeFiles\\3.26.3\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\Dev\\vcpkg\\installed\\x86-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+        "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Dev\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\JoyJacksoon\\Desktop\\Solo-Renderer\\build\\CMakeFiles\\3.26.3\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\Dev\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"" komutundan 9009 koduyla çıkıldı.
+        "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\Dev\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\JoyJacksoon\\Desktop\\Solo-Renderer\\build\\CMakeFiles\\3.26.3\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\Dev\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"
       PostBuildEvent:
         for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
         :VCEnd
-        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x86\\cl.exe
+        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe
       FinalizeBuildStatus:
         "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" dosyası siliniyor.
         "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate" öğesine erişiliyor.
-      "C:\\Users\\JoyJacksoon\\Desktop\\Solo\\build\\CMakeFiles\\3.26.3\\CompilerIdCXX\\CompilerIdCXX.vcxproj" Projesini Oluşturma İşlemi Tamamlandı (varsayılan hedefler).
+      "C:\\Users\\JoyJacksoon\\Desktop\\Solo-Renderer\\build\\CMakeFiles\\3.26.3\\CompilerIdCXX\\CompilerIdCXX.vcxproj" Projesini Oluşturma İşlemi Tamamlandı (varsayılan hedefler).
       
       Oluşturma başarılı oldu.
           0 Uyarı
           0 Hata
       
-      Geçen Süre 00:00:00.83
+      Geçen Süre 00:00:00.74
       
       
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
@@ -130,7 +130,7 @@ events:
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
       
       The CXX compiler identification is MSVC, found in:
-        C:/Users/JoyJacksoon/Desktop/Solo/build/CMakeFiles/3.26.3/CompilerIdCXX/CompilerIdCXX.exe
+        C:/Users/JoyJacksoon/Desktop/Solo-Renderer/build/CMakeFiles/3.26.3/CompilerIdCXX/CompilerIdCXX.exe
       
   -
     kind: "try_compile-v1"
@@ -141,56 +141,56 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "C:/Users/JoyJacksoon/Desktop/Solo/build/CMakeFiles/CMakeScratch/TryCompile-c0cggl"
-      binary: "C:/Users/JoyJacksoon/Desktop/Solo/build/CMakeFiles/CMakeScratch/TryCompile-c0cggl"
+      source: "C:/Users/JoyJacksoon/Desktop/Solo-Renderer/build/CMakeFiles/CMakeScratch/TryCompile-ghjh6z"
+      binary: "C:/Users/JoyJacksoon/Desktop/Solo-Renderer/build/CMakeFiles/CMakeScratch/TryCompile-ghjh6z"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
-      CMAKE_EXE_LINKER_FLAGS: "/machine:X86"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
     buildResult:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: C:/Users/JoyJacksoon/Desktop/Solo/build/CMakeFiles/CMakeScratch/TryCompile-c0cggl
+        Change Dir: C:/Users/JoyJacksoon/Desktop/Solo-Renderer/build/CMakeFiles/CMakeScratch/TryCompile-ghjh6z
         
-        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_b3e5c.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.6.3+07e294721 for .NET Framework
-        Oluşturma başlatıldı: 2/27/2024 9:14:06 PM.
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_1c950.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.6.3+07e294721 for .NET Framework
+        Oluşturma başlatıldı: 2/27/2024 9:51:04 PM.
         
-        1 düğümünde "C:\\Users\\JoyJacksoon\\Desktop\\Solo\\build\\CMakeFiles\\CMakeScratch\\TryCompile-c0cggl\\cmTC_b3e5c.vcxproj" projesi (varsayılan hedefler).
+        1 düğümünde "C:\\Users\\JoyJacksoon\\Desktop\\Solo-Renderer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ghjh6z\\cmTC_1c950.vcxproj" projesi (varsayılan hedefler).
         PrepareForBuild:
-          "cmTC_b3e5c.dir\\Debug\\" dizini oluşturuluyor.
-          "C:\\Users\\JoyJacksoon\\Desktop\\Solo\\build\\CMakeFiles\\CMakeScratch\\TryCompile-c0cggl\\Debug\\" dizini oluşturuluyor.
-          "cmTC_b3e5c.dir\\Debug\\cmTC_b3e5c.tlog\\" dizini oluşturuluyor.
+          "cmTC_1c950.dir\\Debug\\" dizini oluşturuluyor.
+          "C:\\Users\\JoyJacksoon\\Desktop\\Solo-Renderer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ghjh6z\\Debug\\" dizini oluşturuluyor.
+          "cmTC_1c950.dir\\Debug\\cmTC_1c950.tlog\\" dizini oluşturuluyor.
         InitializeBuildStatus:
-          "AlwaysCreate" belirtildiği için "cmTC_b3e5c.dir\\Debug\\cmTC_b3e5c.tlog\\unsuccessfulbuild" oluşturuluyor.
+          "AlwaysCreate" belirtildiği için "cmTC_1c950.dir\\Debug\\cmTC_1c950.tlog\\unsuccessfulbuild" oluşturuluyor.
         VcpkgTripletSelection:
-          Using triplet "x86-windows" from "C:\\Dev\\vcpkg\\installed\\x86-windows\\"
+          Using triplet "x64-windows" from "C:\\Dev\\vcpkg\\installed\\x64-windows\\"
           Using normalized configuration "Release"
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x86\\CL.exe /c /I"C:\\Dev\\vcpkg\\installed\\x86-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b3e5c.dir\\Debug\\\\" /Fd"cmTC_b3e5c.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /analyze- /errorReport:queue "C:\\MinGW\\mingw64\\share\\cmake-3.26\\Modules\\CMakeCCompilerABI.c"
-          Microsoft (R) C/C++ Optimizing Compiler Version 19.36.32537 for x86
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Dev\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1c950.dir\\Debug\\\\" /Fd"cmTC_1c950.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\MinGW\\mingw64\\share\\cmake-3.26\\Modules\\CMakeCCompilerABI.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.36.32537 for x64
           CMakeCCompilerABI.c
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /I"C:\\Dev\\vcpkg\\installed\\x86-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b3e5c.dir\\Debug\\\\" /Fd"cmTC_b3e5c.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /analyze- /errorReport:queue "C:\\MinGW\\mingw64\\share\\cmake-3.26\\Modules\\CMakeCCompilerABI.c"
+          cl /c /I"C:\\Dev\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1c950.dir\\Debug\\\\" /Fd"cmTC_1c950.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\MinGW\\mingw64\\share\\cmake-3.26\\Modules\\CMakeCCompilerABI.c"
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x86\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\JoyJacksoon\\Desktop\\Solo\\build\\CMakeFiles\\CMakeScratch\\TryCompile-c0cggl\\Debug\\cmTC_b3e5c.exe" /INCREMENTAL /ILK:"cmTC_b3e5c.dir\\Debug\\cmTC_b3e5c.ilk" /NOLOGO /LIBPATH:"C:\\Dev\\vcpkg\\installed\\x86-windows\\lib" /LIBPATH:"C:\\Dev\\vcpkg\\installed\\x86-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\\Dev\\vcpkg\\installed\\x86-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/JoyJacksoon/Desktop/Solo/build/CMakeFiles/CMakeScratch/TryCompile-c0cggl/Debug/cmTC_b3e5c.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/JoyJacksoon/Desktop/Solo/build/CMakeFiles/CMakeScratch/TryCompile-c0cggl/Debug/cmTC_b3e5c.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_b3e5c.dir\\Debug\\CMakeCCompilerABI.obj
-          cmTC_b3e5c.vcxproj -> C:\\Users\\JoyJacksoon\\Desktop\\Solo\\build\\CMakeFiles\\CMakeScratch\\TryCompile-c0cggl\\Debug\\cmTC_b3e5c.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\JoyJacksoon\\Desktop\\Solo-Renderer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ghjh6z\\Debug\\cmTC_1c950.exe" /INCREMENTAL /ILK:"cmTC_1c950.dir\\Debug\\cmTC_1c950.ilk" /NOLOGO /LIBPATH:"C:\\Dev\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"C:\\Dev\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\\Dev\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/JoyJacksoon/Desktop/Solo-Renderer/build/CMakeFiles/CMakeScratch/TryCompile-ghjh6z/Debug/cmTC_1c950.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/JoyJacksoon/Desktop/Solo-Renderer/build/CMakeFiles/CMakeScratch/TryCompile-ghjh6z/Debug/cmTC_1c950.lib" /MACHINE:X64  /machine:x64 cmTC_1c950.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_1c950.vcxproj -> C:\\Users\\JoyJacksoon\\Desktop\\Solo-Renderer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ghjh6z\\Debug\\cmTC_1c950.exe
         AppLocalFromInstalled:
-          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Dev\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\JoyJacksoon\\Desktop\\Solo\\build\\CMakeFiles\\CMakeScratch\\TryCompile-c0cggl\\Debug\\cmTC_b3e5c.exe" "C:\\Dev\\vcpkg\\installed\\x86-windows\\bin" "cmTC_b3e5c.dir\\Debug\\cmTC_b3e5c.tlog\\cmTC_b3e5c.write.1u.tlog" "cmTC_b3e5c.dir\\Debug\\vcpkg.applocal.log"
+          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Dev\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\JoyJacksoon\\Desktop\\Solo-Renderer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ghjh6z\\Debug\\cmTC_1c950.exe" "C:\\Dev\\vcpkg\\installed\\x64-windows\\bin" "cmTC_1c950.dir\\Debug\\cmTC_1c950.tlog\\cmTC_1c950.write.1u.tlog" "cmTC_1c950.dir\\Debug\\vcpkg.applocal.log"
           'pwsh.exe' is not recognized as an internal or external command,
           operable program or batch file.
-          "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Dev\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\JoyJacksoon\\Desktop\\Solo\\build\\CMakeFiles\\CMakeScratch\\TryCompile-c0cggl\\Debug\\cmTC_b3e5c.exe" "C:\\Dev\\vcpkg\\installed\\x86-windows\\bin" "cmTC_b3e5c.dir\\Debug\\cmTC_b3e5c.tlog\\cmTC_b3e5c.write.1u.tlog" "cmTC_b3e5c.dir\\Debug\\vcpkg.applocal.log"" komutundan 9009 koduyla çıkıldı.
-          "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\Dev\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\JoyJacksoon\\Desktop\\Solo\\build\\CMakeFiles\\CMakeScratch\\TryCompile-c0cggl\\Debug\\cmTC_b3e5c.exe" "C:\\Dev\\vcpkg\\installed\\x86-windows\\bin" "cmTC_b3e5c.dir\\Debug\\cmTC_b3e5c.tlog\\cmTC_b3e5c.write.1u.tlog" "cmTC_b3e5c.dir\\Debug\\vcpkg.applocal.log"
+          "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Dev\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\JoyJacksoon\\Desktop\\Solo-Renderer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ghjh6z\\Debug\\cmTC_1c950.exe" "C:\\Dev\\vcpkg\\installed\\x64-windows\\bin" "cmTC_1c950.dir\\Debug\\cmTC_1c950.tlog\\cmTC_1c950.write.1u.tlog" "cmTC_1c950.dir\\Debug\\vcpkg.applocal.log"" komutundan 9009 koduyla çıkıldı.
+          "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\Dev\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\JoyJacksoon\\Desktop\\Solo-Renderer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ghjh6z\\Debug\\cmTC_1c950.exe" "C:\\Dev\\vcpkg\\installed\\x64-windows\\bin" "cmTC_1c950.dir\\Debug\\cmTC_1c950.tlog\\cmTC_1c950.write.1u.tlog" "cmTC_1c950.dir\\Debug\\vcpkg.applocal.log"
         FinalizeBuildStatus:
-          "cmTC_b3e5c.dir\\Debug\\cmTC_b3e5c.tlog\\unsuccessfulbuild" dosyası siliniyor.
-          "cmTC_b3e5c.dir\\Debug\\cmTC_b3e5c.tlog\\cmTC_b3e5c.lastbuildstate" öğesine erişiliyor.
-        "C:\\Users\\JoyJacksoon\\Desktop\\Solo\\build\\CMakeFiles\\CMakeScratch\\TryCompile-c0cggl\\cmTC_b3e5c.vcxproj" Projesini Oluşturma İşlemi Tamamlandı (varsayılan hedefler).
+          "cmTC_1c950.dir\\Debug\\cmTC_1c950.tlog\\unsuccessfulbuild" dosyası siliniyor.
+          "cmTC_1c950.dir\\Debug\\cmTC_1c950.tlog\\cmTC_1c950.lastbuildstate" öğesine erişiliyor.
+        "C:\\Users\\JoyJacksoon\\Desktop\\Solo-Renderer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ghjh6z\\cmTC_1c950.vcxproj" Projesini Oluşturma İşlemi Tamamlandı (varsayılan hedefler).
         
         Oluşturma başarılı oldu.
             0 Uyarı
             0 Hata
         
-        Geçen Süre 00:00:00.78
+        Geçen Süre 00:00:00.73
         
       exitCode: 0
   -
@@ -202,56 +202,56 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/Users/JoyJacksoon/Desktop/Solo/build/CMakeFiles/CMakeScratch/TryCompile-ujxb0j"
-      binary: "C:/Users/JoyJacksoon/Desktop/Solo/build/CMakeFiles/CMakeScratch/TryCompile-ujxb0j"
+      source: "C:/Users/JoyJacksoon/Desktop/Solo-Renderer/build/CMakeFiles/CMakeScratch/TryCompile-dfv6xy"
+      binary: "C:/Users/JoyJacksoon/Desktop/Solo-Renderer/build/CMakeFiles/CMakeScratch/TryCompile-dfv6xy"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
-      CMAKE_EXE_LINKER_FLAGS: "/machine:X86"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
     buildResult:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: C:/Users/JoyJacksoon/Desktop/Solo/build/CMakeFiles/CMakeScratch/TryCompile-ujxb0j
+        Change Dir: C:/Users/JoyJacksoon/Desktop/Solo-Renderer/build/CMakeFiles/CMakeScratch/TryCompile-dfv6xy
         
-        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_caf4c.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.6.3+07e294721 for .NET Framework
-        Oluşturma başlatıldı: 2/27/2024 9:14:07 PM.
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_8e937.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.6.3+07e294721 for .NET Framework
+        Oluşturma başlatıldı: 2/27/2024 9:51:05 PM.
         
-        1 düğümünde "C:\\Users\\JoyJacksoon\\Desktop\\Solo\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ujxb0j\\cmTC_caf4c.vcxproj" projesi (varsayılan hedefler).
+        1 düğümünde "C:\\Users\\JoyJacksoon\\Desktop\\Solo-Renderer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dfv6xy\\cmTC_8e937.vcxproj" projesi (varsayılan hedefler).
         PrepareForBuild:
-          "cmTC_caf4c.dir\\Debug\\" dizini oluşturuluyor.
-          "C:\\Users\\JoyJacksoon\\Desktop\\Solo\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ujxb0j\\Debug\\" dizini oluşturuluyor.
-          "cmTC_caf4c.dir\\Debug\\cmTC_caf4c.tlog\\" dizini oluşturuluyor.
+          "cmTC_8e937.dir\\Debug\\" dizini oluşturuluyor.
+          "C:\\Users\\JoyJacksoon\\Desktop\\Solo-Renderer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dfv6xy\\Debug\\" dizini oluşturuluyor.
+          "cmTC_8e937.dir\\Debug\\cmTC_8e937.tlog\\" dizini oluşturuluyor.
         InitializeBuildStatus:
-          "AlwaysCreate" belirtildiği için "cmTC_caf4c.dir\\Debug\\cmTC_caf4c.tlog\\unsuccessfulbuild" oluşturuluyor.
+          "AlwaysCreate" belirtildiği için "cmTC_8e937.dir\\Debug\\cmTC_8e937.tlog\\unsuccessfulbuild" oluşturuluyor.
         VcpkgTripletSelection:
-          Using triplet "x86-windows" from "C:\\Dev\\vcpkg\\installed\\x86-windows\\"
+          Using triplet "x64-windows" from "C:\\Dev\\vcpkg\\installed\\x64-windows\\"
           Using normalized configuration "Release"
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x86\\CL.exe /c /I"C:\\Dev\\vcpkg\\installed\\x86-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_caf4c.dir\\Debug\\\\" /Fd"cmTC_caf4c.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /analyze- /errorReport:queue "C:\\MinGW\\mingw64\\share\\cmake-3.26\\Modules\\CMakeCXXCompilerABI.cpp"
-          Microsoft (R) C/C++ Optimizing Compiler Version 19.36.32537 for x86
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Dev\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_8e937.dir\\Debug\\\\" /Fd"cmTC_8e937.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\MinGW\\mingw64\\share\\cmake-3.26\\Modules\\CMakeCXXCompilerABI.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.36.32537 for x64
           CMakeCXXCompilerABI.cpp
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /I"C:\\Dev\\vcpkg\\installed\\x86-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_caf4c.dir\\Debug\\\\" /Fd"cmTC_caf4c.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /analyze- /errorReport:queue "C:\\MinGW\\mingw64\\share\\cmake-3.26\\Modules\\CMakeCXXCompilerABI.cpp"
+          cl /c /I"C:\\Dev\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_8e937.dir\\Debug\\\\" /Fd"cmTC_8e937.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\MinGW\\mingw64\\share\\cmake-3.26\\Modules\\CMakeCXXCompilerABI.cpp"
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x86\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\JoyJacksoon\\Desktop\\Solo\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ujxb0j\\Debug\\cmTC_caf4c.exe" /INCREMENTAL /ILK:"cmTC_caf4c.dir\\Debug\\cmTC_caf4c.ilk" /NOLOGO /LIBPATH:"C:\\Dev\\vcpkg\\installed\\x86-windows\\lib" /LIBPATH:"C:\\Dev\\vcpkg\\installed\\x86-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\\Dev\\vcpkg\\installed\\x86-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/JoyJacksoon/Desktop/Solo/build/CMakeFiles/CMakeScratch/TryCompile-ujxb0j/Debug/cmTC_caf4c.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/JoyJacksoon/Desktop/Solo/build/CMakeFiles/CMakeScratch/TryCompile-ujxb0j/Debug/cmTC_caf4c.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_caf4c.dir\\Debug\\CMakeCXXCompilerABI.obj
-          cmTC_caf4c.vcxproj -> C:\\Users\\JoyJacksoon\\Desktop\\Solo\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ujxb0j\\Debug\\cmTC_caf4c.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\JoyJacksoon\\Desktop\\Solo-Renderer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dfv6xy\\Debug\\cmTC_8e937.exe" /INCREMENTAL /ILK:"cmTC_8e937.dir\\Debug\\cmTC_8e937.ilk" /NOLOGO /LIBPATH:"C:\\Dev\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"C:\\Dev\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\\Dev\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/JoyJacksoon/Desktop/Solo-Renderer/build/CMakeFiles/CMakeScratch/TryCompile-dfv6xy/Debug/cmTC_8e937.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/JoyJacksoon/Desktop/Solo-Renderer/build/CMakeFiles/CMakeScratch/TryCompile-dfv6xy/Debug/cmTC_8e937.lib" /MACHINE:X64  /machine:x64 cmTC_8e937.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_8e937.vcxproj -> C:\\Users\\JoyJacksoon\\Desktop\\Solo-Renderer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dfv6xy\\Debug\\cmTC_8e937.exe
         AppLocalFromInstalled:
-          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Dev\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\JoyJacksoon\\Desktop\\Solo\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ujxb0j\\Debug\\cmTC_caf4c.exe" "C:\\Dev\\vcpkg\\installed\\x86-windows\\bin" "cmTC_caf4c.dir\\Debug\\cmTC_caf4c.tlog\\cmTC_caf4c.write.1u.tlog" "cmTC_caf4c.dir\\Debug\\vcpkg.applocal.log"
+          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Dev\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\JoyJacksoon\\Desktop\\Solo-Renderer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dfv6xy\\Debug\\cmTC_8e937.exe" "C:\\Dev\\vcpkg\\installed\\x64-windows\\bin" "cmTC_8e937.dir\\Debug\\cmTC_8e937.tlog\\cmTC_8e937.write.1u.tlog" "cmTC_8e937.dir\\Debug\\vcpkg.applocal.log"
           'pwsh.exe' is not recognized as an internal or external command,
           operable program or batch file.
-          "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Dev\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\JoyJacksoon\\Desktop\\Solo\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ujxb0j\\Debug\\cmTC_caf4c.exe" "C:\\Dev\\vcpkg\\installed\\x86-windows\\bin" "cmTC_caf4c.dir\\Debug\\cmTC_caf4c.tlog\\cmTC_caf4c.write.1u.tlog" "cmTC_caf4c.dir\\Debug\\vcpkg.applocal.log"" komutundan 9009 koduyla çıkıldı.
-          "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\Dev\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\JoyJacksoon\\Desktop\\Solo\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ujxb0j\\Debug\\cmTC_caf4c.exe" "C:\\Dev\\vcpkg\\installed\\x86-windows\\bin" "cmTC_caf4c.dir\\Debug\\cmTC_caf4c.tlog\\cmTC_caf4c.write.1u.tlog" "cmTC_caf4c.dir\\Debug\\vcpkg.applocal.log"
+          "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Dev\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\JoyJacksoon\\Desktop\\Solo-Renderer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dfv6xy\\Debug\\cmTC_8e937.exe" "C:\\Dev\\vcpkg\\installed\\x64-windows\\bin" "cmTC_8e937.dir\\Debug\\cmTC_8e937.tlog\\cmTC_8e937.write.1u.tlog" "cmTC_8e937.dir\\Debug\\vcpkg.applocal.log"" komutundan 9009 koduyla çıkıldı.
+          "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\Dev\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\JoyJacksoon\\Desktop\\Solo-Renderer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dfv6xy\\Debug\\cmTC_8e937.exe" "C:\\Dev\\vcpkg\\installed\\x64-windows\\bin" "cmTC_8e937.dir\\Debug\\cmTC_8e937.tlog\\cmTC_8e937.write.1u.tlog" "cmTC_8e937.dir\\Debug\\vcpkg.applocal.log"
         FinalizeBuildStatus:
-          "cmTC_caf4c.dir\\Debug\\cmTC_caf4c.tlog\\unsuccessfulbuild" dosyası siliniyor.
-          "cmTC_caf4c.dir\\Debug\\cmTC_caf4c.tlog\\cmTC_caf4c.lastbuildstate" öğesine erişiliyor.
-        "C:\\Users\\JoyJacksoon\\Desktop\\Solo\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ujxb0j\\cmTC_caf4c.vcxproj" Projesini Oluşturma İşlemi Tamamlandı (varsayılan hedefler).
+          "cmTC_8e937.dir\\Debug\\cmTC_8e937.tlog\\unsuccessfulbuild" dosyası siliniyor.
+          "cmTC_8e937.dir\\Debug\\cmTC_8e937.tlog\\cmTC_8e937.lastbuildstate" öğesine erişiliyor.
+        "C:\\Users\\JoyJacksoon\\Desktop\\Solo-Renderer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dfv6xy\\cmTC_8e937.vcxproj" Projesini Oluşturma İşlemi Tamamlandı (varsayılan hedefler).
         
         Oluşturma başarılı oldu.
             0 Uyarı
             0 Hata
         
-        Geçen Süre 00:00:00.78
+        Geçen Süre 00:00:00.72
         
       exitCode: 0
 ...

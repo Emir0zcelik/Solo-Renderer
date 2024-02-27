@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/JoyJacksoon/Desktop/Solo/Solo-App
+# Install script for directory: C:/Users/JoyJacksoon/Desktop/Solo-Renderer/Solo-App
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -1,0 +1,10 @@
+^C:\USERS\JOYJACKSOON\DESKTOP\SOLO-RENDERER\BUILD\CMAKEFILES\67F6226972B803857D5711D9FC9441C0\GENERATE.STAMP.RULE
+setlocal
+C:\MinGW\mingw64\bin\cmake.exe -SC:/Users/JoyJacksoon/Desktop/Solo-Renderer -BC:/Users/JoyJacksoon/Desktop/Solo-Renderer/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/JoyJacksoon/Desktop/Solo-Renderer/build/Solo.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

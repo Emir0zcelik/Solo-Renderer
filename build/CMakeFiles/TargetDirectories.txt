@@ -1,6 +1,6 @@
-C:/Users/JoyJacksoon/Desktop/Solo/build/CMakeFiles/ALL_BUILD.dir
-C:/Users/JoyJacksoon/Desktop/Solo/build/CMakeFiles/ZERO_CHECK.dir
-C:/Users/JoyJacksoon/Desktop/Solo/build/Solo-App/CMakeFiles/SoloApp.dir
-C:/Users/JoyJacksoon/Desktop/Solo/build/Solo-App/CMakeFiles/ALL_BUILD.dir
-C:/Users/JoyJacksoon/Desktop/Solo/build/Solo-Core/CMakeFiles/Solo-Core.dir
-C:/Users/JoyJacksoon/Desktop/Solo/build/Solo-Core/CMakeFiles/ALL_BUILD.dir
+C:/Users/JoyJacksoon/Desktop/Solo-Renderer/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/JoyJacksoon/Desktop/Solo-Renderer/build/CMakeFiles/ZERO_CHECK.dir
+C:/Users/JoyJacksoon/Desktop/Solo-Renderer/build/Solo-App/CMakeFiles/SoloApp.dir
+C:/Users/JoyJacksoon/Desktop/Solo-Renderer/build/Solo-App/CMakeFiles/ALL_BUILD.dir
+C:/Users/JoyJacksoon/Desktop/Solo-Renderer/build/Solo-Core/CMakeFiles/Solo-Core.dir
+C:/Users/JoyJacksoon/Desktop/Solo-Renderer/build/Solo-Core/CMakeFiles/ALL_BUILD.dir
