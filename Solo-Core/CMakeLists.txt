@@ -21,6 +21,9 @@ find_package(glm CONFIG REQUIRED)
 
 target_link_libraries(Solo-Core PUBLIC glad::glad glfw glm::glm)
 
+# find_package(imgui CONFIG REQUIRED)
+# target_link_libraries(main PRIVATE imgui::imgui)
+
 
 
 
