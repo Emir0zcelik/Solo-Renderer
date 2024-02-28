@@ -1,2 +1,13 @@
 # CMake generation dependency list for this directory.
+C:/Dev/vcpkg/installed/x64-windows/share/glad/gladConfig.cmake
+C:/Dev/vcpkg/installed/x64-windows/share/glad/gladConfigVersion.cmake
+C:/Dev/vcpkg/installed/x64-windows/share/glad/gladTargets-debug.cmake
+C:/Dev/vcpkg/installed/x64-windows/share/glad/gladTargets-release.cmake
+C:/Dev/vcpkg/installed/x64-windows/share/glad/gladTargets.cmake
+C:/Dev/vcpkg/installed/x64-windows/share/glfw3/glfw3Config.cmake
+C:/Dev/vcpkg/installed/x64-windows/share/glfw3/glfw3ConfigVersion.cmake
+C:/Dev/vcpkg/installed/x64-windows/share/glfw3/glfw3Targets-debug.cmake
+C:/Dev/vcpkg/installed/x64-windows/share/glfw3/glfw3Targets-release.cmake
+C:/Dev/vcpkg/installed/x64-windows/share/glfw3/glfw3Targets.cmake
+C:/Dev/vcpkg/installed/x64-windows/share/glm/glm-config.cmake
 C:/Users/JoyJacksoon/Desktop/Solo-Renderer/Solo-Core/CMakeLists.txt

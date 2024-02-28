@@ -200,6 +200,9 @@ Solo-Core_BINARY_DIR:STATIC=C:/Users/JoyJacksoon/Desktop/Solo-Renderer/build/Sol
 //Value Computed by CMake
 Solo-Core_IS_TOP_LEVEL:STATIC=OFF
 
+//Dependencies for the target
+Solo-Core_LIB_DEPENDS:STATIC=general;glad::glad;general;glfw;
+
 //Value Computed by CMake
 Solo-Core_SOURCE_DIR:STATIC=C:/Users/JoyJacksoon/Desktop/Solo-Renderer/Solo-Core
 
@@ -211,6 +214,15 @@ Solo_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
 Solo_SOURCE_DIR:STATIC=C:/Users/JoyJacksoon/Desktop/Solo-Renderer
+
+//The directory containing a CMake configuration file for glad.
+glad_DIR:PATH=C:/Dev/vcpkg/installed/x64-windows/share/glad
+
+//The directory containing a CMake configuration file for glfw3.
+glfw3_DIR:PATH=C:/Dev/vcpkg/installed/x64-windows/share/glfw3
+
+//The directory containing a CMake configuration file for glm.
+glm_DIR:PATH=C:/Dev/vcpkg/installed/x64-windows/share/glm
 
 
 ########################
