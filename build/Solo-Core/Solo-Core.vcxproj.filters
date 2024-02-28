@@ -4,9 +4,27 @@
     <ClCompile Include="C:\Users\JoyJacksoon\Desktop\Solo-Renderer\Solo-Core\src\Solo\SoloCore.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="C:\Users\JoyJacksoon\Desktop\Solo-Renderer\Solo-Core\src\Renderer\Renderer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\JoyJacksoon\Desktop\Solo-Renderer\Solo-Core\src\Renderer\VBO.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\JoyJacksoon\Desktop\Solo-Renderer\Solo-Core\src\Renderer\IBO.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="C:\Users\JoyJacksoon\Desktop\Solo-Renderer\Solo-Core\src\Solo\SoloCore.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\JoyJacksoon\Desktop\Solo-Renderer\Solo-Core\src\Renderer\Renderer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\JoyJacksoon\Desktop\Solo-Renderer\Solo-Core\src\Renderer\VBO.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\JoyJacksoon\Desktop\Solo-Renderer\Solo-Core\src\Renderer\IBO.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

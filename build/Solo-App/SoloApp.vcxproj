@@ -86,7 +86,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\JoyJacksoon\Desktop\Solo-Renderer\Solo-App\Solo-Core\src;C:\Users\JoyJacksoon\Desktop\Solo-Renderer\Solo-App;C:\Users\JoyJacksoon\Desktop\Solo-Renderer\Solo-Core\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\JoyJacksoon\Desktop\Solo-Renderer\Solo-App\Solo-Core\src;C:\Users\JoyJacksoon\Desktop\Solo-Renderer\Solo-Core\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Dev/vcpkg/installed/x64-windows/include"</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
@@ -105,10 +105,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;GLFW_DLL;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\JoyJacksoon\Desktop\Solo-Renderer\Solo-App\Solo-Core\src;C:\Users\JoyJacksoon\Desktop\Solo-Renderer\Solo-App;C:\Users\JoyJacksoon\Desktop\Solo-Renderer\Solo-Core\src;C:\Dev\vcpkg\installed\x64-windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\JoyJacksoon\Desktop\Solo-Renderer\Solo-App\Solo-Core\src;C:\Users\JoyJacksoon\Desktop\Solo-Renderer\Solo-Core\src;C:\Dev\vcpkg\installed\x64-windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\JoyJacksoon\Desktop\Solo-Renderer\Solo-App\Solo-Core\src;C:\Users\JoyJacksoon\Desktop\Solo-Renderer\Solo-App;C:\Users\JoyJacksoon\Desktop\Solo-Renderer\Solo-Core\src;C:\Dev\vcpkg\installed\x64-windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\JoyJacksoon\Desktop\Solo-Renderer\Solo-App\Solo-Core\src;C:\Users\JoyJacksoon\Desktop\Solo-Renderer\Solo-Core\src;C:\Dev\vcpkg\installed\x64-windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -131,7 +131,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\JoyJacksoon\Desktop\Solo-Renderer\Solo-App\Solo-Core\src;C:\Users\JoyJacksoon\Desktop\Solo-Renderer\Solo-App;C:\Users\JoyJacksoon\Desktop\Solo-Renderer\Solo-Core\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\JoyJacksoon\Desktop\Solo-Renderer\Solo-App\Solo-Core\src;C:\Users\JoyJacksoon\Desktop\Solo-Renderer\Solo-Core\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Dev/vcpkg/installed/x64-windows/include"</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -150,10 +150,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;GLFW_DLL;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\JoyJacksoon\Desktop\Solo-Renderer\Solo-App\Solo-Core\src;C:\Users\JoyJacksoon\Desktop\Solo-Renderer\Solo-App;C:\Users\JoyJacksoon\Desktop\Solo-Renderer\Solo-Core\src;C:\Dev\vcpkg\installed\x64-windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\JoyJacksoon\Desktop\Solo-Renderer\Solo-App\Solo-Core\src;C:\Users\JoyJacksoon\Desktop\Solo-Renderer\Solo-Core\src;C:\Dev\vcpkg\installed\x64-windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\JoyJacksoon\Desktop\Solo-Renderer\Solo-App\Solo-Core\src;C:\Users\JoyJacksoon\Desktop\Solo-Renderer\Solo-App;C:\Users\JoyJacksoon\Desktop\Solo-Renderer\Solo-Core\src;C:\Dev\vcpkg\installed\x64-windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\JoyJacksoon\Desktop\Solo-Renderer\Solo-App\Solo-Core\src;C:\Users\JoyJacksoon\Desktop\Solo-Renderer\Solo-Core\src;C:\Dev\vcpkg\installed\x64-windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -176,7 +176,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\JoyJacksoon\Desktop\Solo-Renderer\Solo-App\Solo-Core\src;C:\Users\JoyJacksoon\Desktop\Solo-Renderer\Solo-App;C:\Users\JoyJacksoon\Desktop\Solo-Renderer\Solo-Core\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\JoyJacksoon\Desktop\Solo-Renderer\Solo-App\Solo-Core\src;C:\Users\JoyJacksoon\Desktop\Solo-Renderer\Solo-Core\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Dev/vcpkg/installed/x64-windows/include"</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -195,10 +195,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;GLFW_DLL;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\JoyJacksoon\Desktop\Solo-Renderer\Solo-App\Solo-Core\src;C:\Users\JoyJacksoon\Desktop\Solo-Renderer\Solo-App;C:\Users\JoyJacksoon\Desktop\Solo-Renderer\Solo-Core\src;C:\Dev\vcpkg\installed\x64-windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\JoyJacksoon\Desktop\Solo-Renderer\Solo-App\Solo-Core\src;C:\Users\JoyJacksoon\Desktop\Solo-Renderer\Solo-Core\src;C:\Dev\vcpkg\installed\x64-windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\JoyJacksoon\Desktop\Solo-Renderer\Solo-App\Solo-Core\src;C:\Users\JoyJacksoon\Desktop\Solo-Renderer\Solo-App;C:\Users\JoyJacksoon\Desktop\Solo-Renderer\Solo-Core\src;C:\Dev\vcpkg\installed\x64-windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\JoyJacksoon\Desktop\Solo-Renderer\Solo-App\Solo-Core\src;C:\Users\JoyJacksoon\Desktop\Solo-Renderer\Solo-Core\src;C:\Dev\vcpkg\installed\x64-windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -221,7 +221,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\JoyJacksoon\Desktop\Solo-Renderer\Solo-App\Solo-Core\src;C:\Users\JoyJacksoon\Desktop\Solo-Renderer\Solo-App;C:\Users\JoyJacksoon\Desktop\Solo-Renderer\Solo-Core\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\JoyJacksoon\Desktop\Solo-Renderer\Solo-App\Solo-Core\src;C:\Users\JoyJacksoon\Desktop\Solo-Renderer\Solo-Core\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Dev/vcpkg/installed/x64-windows/include"</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -239,10 +239,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;GLFW_DLL;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\JoyJacksoon\Desktop\Solo-Renderer\Solo-App\Solo-Core\src;C:\Users\JoyJacksoon\Desktop\Solo-Renderer\Solo-App;C:\Users\JoyJacksoon\Desktop\Solo-Renderer\Solo-Core\src;C:\Dev\vcpkg\installed\x64-windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\JoyJacksoon\Desktop\Solo-Renderer\Solo-App\Solo-Core\src;C:\Users\JoyJacksoon\Desktop\Solo-Renderer\Solo-Core\src;C:\Dev\vcpkg\installed\x64-windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\JoyJacksoon\Desktop\Solo-Renderer\Solo-App\Solo-Core\src;C:\Users\JoyJacksoon\Desktop\Solo-Renderer\Solo-App;C:\Users\JoyJacksoon\Desktop\Solo-Renderer\Solo-Core\src;C:\Dev\vcpkg\installed\x64-windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\JoyJacksoon\Desktop\Solo-Renderer\Solo-App\Solo-Core\src;C:\Users\JoyJacksoon\Desktop\Solo-Renderer\Solo-Core\src;C:\Dev\vcpkg\installed\x64-windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>

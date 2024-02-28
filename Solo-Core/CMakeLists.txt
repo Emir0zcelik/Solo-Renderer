@@ -4,8 +4,10 @@ set(CMAKE_PREFIX_PATH "C:/Dev/vcpkg/installed/x64-windows")
 
 
 add_library(Solo-Core
-"src/Solo/SoloCore.cpp"
-"src/Solo/SoloCore.h"
+"src/Solo/SoloCore.cpp" "src/Solo/SoloCore.h"
+"src/Renderer/Renderer.cpp" "src/Renderer/Renderer.h"
+"src/Renderer/VBO.cpp" "src/Renderer/VBO.h"
+"src/Renderer/IBO.cpp" "src/Renderer/IBO.h"
 )
 
 

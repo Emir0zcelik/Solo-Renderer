@@ -275,6 +275,12 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   <ItemGroup>
     <ClCompile Include="C:\Users\JoyJacksoon\Desktop\Solo-Renderer\Solo-Core\src\Solo\SoloCore.cpp" />
     <ClInclude Include="C:\Users\JoyJacksoon\Desktop\Solo-Renderer\Solo-Core\src\Solo\SoloCore.h" />
+    <ClCompile Include="C:\Users\JoyJacksoon\Desktop\Solo-Renderer\Solo-Core\src\Renderer\Renderer.cpp" />
+    <ClInclude Include="C:\Users\JoyJacksoon\Desktop\Solo-Renderer\Solo-Core\src\Renderer\Renderer.h" />
+    <ClCompile Include="C:\Users\JoyJacksoon\Desktop\Solo-Renderer\Solo-Core\src\Renderer\VBO.cpp" />
+    <ClInclude Include="C:\Users\JoyJacksoon\Desktop\Solo-Renderer\Solo-Core\src\Renderer\VBO.h" />
+    <ClCompile Include="C:\Users\JoyJacksoon\Desktop\Solo-Renderer\Solo-Core\src\Renderer\IBO.cpp" />
+    <ClInclude Include="C:\Users\JoyJacksoon\Desktop\Solo-Renderer\Solo-Core\src\Renderer\IBO.h" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="C:\Users\JoyJacksoon\Desktop\Solo-Renderer\build\ZERO_CHECK.vcxproj">

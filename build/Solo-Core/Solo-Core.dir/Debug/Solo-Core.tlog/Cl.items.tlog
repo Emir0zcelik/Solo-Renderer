@@ -1,1 +1,4 @@
 C:\Users\JoyJacksoon\Desktop\Solo-Renderer\Solo-Core\src\Solo\SoloCore.cpp;C:\Users\JoyJacksoon\Desktop\Solo-Renderer\build\Solo-Core\Solo-Core.dir\Debug\SoloCore.obj
+C:\Users\JoyJacksoon\Desktop\Solo-Renderer\Solo-Core\src\Renderer\Renderer.cpp;C:\Users\JoyJacksoon\Desktop\Solo-Renderer\build\Solo-Core\Solo-Core.dir\Debug\Renderer.obj
+C:\Users\JoyJacksoon\Desktop\Solo-Renderer\Solo-Core\src\Renderer\VBO.cpp;C:\Users\JoyJacksoon\Desktop\Solo-Renderer\build\Solo-Core\Solo-Core.dir\Debug\VBO.obj
+C:\Users\JoyJacksoon\Desktop\Solo-Renderer\Solo-Core\src\Renderer\IBO.cpp;C:\Users\JoyJacksoon\Desktop\Solo-Renderer\build\Solo-Core\Solo-Core.dir\Debug\IBO.obj
