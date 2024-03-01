@@ -1,0 +1,2 @@
+C:\Users\JoyJacksoon\Desktop\Solo-Renderer\build\Solo-App\Debug\glfw3.dll
+C:\Users\JoyJacksoon\Desktop\Solo-Renderer\build\Solo-App\SoloApp.dir\Debug\SoloApp.vcxproj.CopyComplete

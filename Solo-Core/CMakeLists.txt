@@ -8,11 +8,15 @@ add_library(Solo-Core
 "src/Renderer/Renderer.cpp" "src/Renderer/Renderer.h"
 "src/Renderer/VBO.cpp" "src/Renderer/VBO.h"
 "src/Renderer/IBO.cpp" "src/Renderer/IBO.h"
+"src/Window/Window.cpp" "src/Window/Window.h"
 )
 
 
 target_include_directories(Solo-Core PUBLIC
     "${CMAKE_CURRENT_SOURCE_DIR}/src"
+    "${GLAD_INCLUDE_DIRS}"
+    "${GLFW3_INCLUDE_DIRS}"
+    "${GLM_INCLUDE_DIRS}"
 )
 
 find_package(glad CONFIG REQUIRED)
@@ -21,8 +25,6 @@ find_package(glm CONFIG REQUIRED)
 
 target_link_libraries(Solo-Core PUBLIC glad::glad glfw glm::glm)
 
-# find_package(imgui CONFIG REQUIRED)
-# target_link_libraries(main PRIVATE imgui::imgui)
 
 
 

@@ -224,6 +224,9 @@ glfw3_DIR:PATH=C:/Dev/vcpkg/installed/x64-windows/share/glfw3
 //The directory containing a CMake configuration file for glm.
 glm_DIR:PATH=C:/Dev/vcpkg/installed/x64-windows/share/glm
 
+//The directory containing a CMake configuration file for imgui.
+imgui_DIR:PATH=C:/Dev/vcpkg/installed/x64-windows/share/imgui
+
 
 ########################
 # INTERNAL cache entries

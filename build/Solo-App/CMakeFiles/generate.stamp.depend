@@ -1,2 +1,7 @@
 # CMake generation dependency list for this directory.
+C:/Dev/vcpkg/installed/x64-windows/share/imgui/imgui-config.cmake
+C:/Dev/vcpkg/installed/x64-windows/share/imgui/imgui-targets-debug.cmake
+C:/Dev/vcpkg/installed/x64-windows/share/imgui/imgui-targets-release.cmake
+C:/Dev/vcpkg/installed/x64-windows/share/imgui/imgui-targets.cmake
+C:/MinGW/mingw64/share/cmake-3.26/Modules/CMakeFindDependencyMacro.cmake
 C:/Users/JoyJacksoon/Desktop/Solo-Renderer/Solo-App/CMakeLists.txt
