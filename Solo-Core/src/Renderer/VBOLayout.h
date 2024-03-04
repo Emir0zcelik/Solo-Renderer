@@ -3,7 +3,7 @@
 #include <vector>
 #include <glad/glad.h>
 
-#define ASSERT(x) if(!(x)) __debugbreak();
+// #define ASSERT(x) if(!(x)) __debugbreak();
 
 struct VBOElement
 {
@@ -18,7 +18,7 @@ struct VBOElement
 		case GL_UNSIGNED_INT:	return sizeof(unsigned int);
 		case GL_UNSIGNED_BYTE:	return sizeof(unsigned char);
 		}
-		ASSERT(false);
+		// ASSERT(false);
 		return 0;
 	}
 };

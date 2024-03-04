@@ -1,6 +1,6 @@
 #include "Window.h"
 
-// void framebuffer_size_callback(GLFWwindow* window, int width, int height);
+void framebuffer_size_callback(GLFWwindow* window, int width, int height);
 
 Window::Window()
 {
@@ -44,7 +44,7 @@ GLFWwindow* Window::InitWindow(int width, int height, std::string windowName)
     }
 
     glfwMakeContextCurrent(window);
-    // glfwSetFramebufferSizeCallback(window, framebuffer_size_callback);
+    glfwSetFramebufferSizeCallback(window, framebuffer_size_callback);
 
     if (!gladLoadGLLoader((GLADloadproc)glfwGetProcAddress))
     {

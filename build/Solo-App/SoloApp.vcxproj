@@ -324,6 +324,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ClCompile Include="C:\Users\JoyJacksoon\Desktop\Solo-Renderer\Solo-App\src\SoloApp.cpp" />
     <ClInclude Include="C:\Users\JoyJacksoon\Desktop\Solo-Renderer\Solo-App\src\SoloApp.h" />
     <ClInclude Include="C:\Users\JoyJacksoon\Desktop\Solo-Renderer\Solo-App\src\Test\Test.h" />
+    <ClCompile Include="C:\Users\JoyJacksoon\Desktop\Solo-Renderer\Solo-App\src\Test\TestMainMenu.cpp" />
+    <ClInclude Include="C:\Users\JoyJacksoon\Desktop\Solo-Renderer\Solo-App\src\Test\TestMainMenu.h" />
+    <ClCompile Include="C:\Users\JoyJacksoon\Desktop\Solo-Renderer\Solo-App\src\Test\TestSampleScene.cpp" />
+    <ClInclude Include="C:\Users\JoyJacksoon\Desktop\Solo-Renderer\Solo-App\src\Test\TestSampleScene.h" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="C:\Users\JoyJacksoon\Desktop\Solo-Renderer\build\ZERO_CHECK.vcxproj">

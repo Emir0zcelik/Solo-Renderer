@@ -1,5 +1,9 @@
 C:\Users\JoyJacksoon\Desktop\Solo-Renderer\Solo-Core\src\Solo\SoloCore.cpp;C:\Users\JoyJacksoon\Desktop\Solo-Renderer\build\Solo-Core\Solo-Core.dir\Debug\SoloCore.obj
 C:\Users\JoyJacksoon\Desktop\Solo-Renderer\Solo-Core\src\Renderer\Renderer.cpp;C:\Users\JoyJacksoon\Desktop\Solo-Renderer\build\Solo-Core\Solo-Core.dir\Debug\Renderer.obj
+C:\Users\JoyJacksoon\Desktop\Solo-Renderer\Solo-Core\src\Renderer\VAO.cpp;C:\Users\JoyJacksoon\Desktop\Solo-Renderer\build\Solo-Core\Solo-Core.dir\Debug\VAO.obj
 C:\Users\JoyJacksoon\Desktop\Solo-Renderer\Solo-Core\src\Renderer\VBO.cpp;C:\Users\JoyJacksoon\Desktop\Solo-Renderer\build\Solo-Core\Solo-Core.dir\Debug\VBO.obj
 C:\Users\JoyJacksoon\Desktop\Solo-Renderer\Solo-Core\src\Renderer\IBO.cpp;C:\Users\JoyJacksoon\Desktop\Solo-Renderer\build\Solo-Core\Solo-Core.dir\Debug\IBO.obj
+C:\Users\JoyJacksoon\Desktop\Solo-Renderer\Solo-Core\src\Renderer\Shader.cpp;C:\Users\JoyJacksoon\Desktop\Solo-Renderer\build\Solo-Core\Solo-Core.dir\Debug\Shader.obj
 C:\Users\JoyJacksoon\Desktop\Solo-Renderer\Solo-Core\src\Window\Window.cpp;C:\Users\JoyJacksoon\Desktop\Solo-Renderer\build\Solo-Core\Solo-Core.dir\Debug\Window.obj
+C:\Users\JoyJacksoon\Desktop\Solo-Renderer\Solo-Core\src\Folder\Folder.cpp;C:\Users\JoyJacksoon\Desktop\Solo-Renderer\build\Solo-Core\Solo-Core.dir\Debug\Folder.obj
+C:\Users\JoyJacksoon\Desktop\Solo-Renderer\Solo-Core\src\ImGui\imgui_impl_glfw_gl3.cpp;C:\Users\JoyJacksoon\Desktop\Solo-Renderer\build\Solo-Core\Solo-Core.dir\Debug\imgui_impl_glfw_gl3.obj

@@ -1,9 +1,12 @@
 #pragma once
 
-// #include <imgui.h>
+#include <imgui.h>
 
-#include "../../Solo-Core/src/Window/Window.h"
-#include "../../Solo-Core/src/Renderer/Renderer.h"
+#include "ImGui/imgui_impl_glfw_gl3.h"
+#include "Window/Window.h"
+#include "Renderer/Renderer.h"
+#include "Test/TestMainMenu.h"
+#include "Test/TestSampleScene.h"
 
 
 

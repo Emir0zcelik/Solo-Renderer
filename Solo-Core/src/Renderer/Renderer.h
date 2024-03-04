@@ -1,3 +1,5 @@
+#pragma once
+
 #include "VBO.h"
 #include "IBO.h"
 #include "VAO.h"
@@ -11,7 +13,6 @@
 class Renderer
 {
     public:
-
         void Clear() const;
 
         void Draw(const VAO& va, const IBO& ib, const Shader& shader) const;

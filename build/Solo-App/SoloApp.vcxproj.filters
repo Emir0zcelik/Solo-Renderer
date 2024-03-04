@@ -4,12 +4,24 @@
     <ClCompile Include="C:\Users\JoyJacksoon\Desktop\Solo-Renderer\Solo-App\src\SoloApp.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="C:\Users\JoyJacksoon\Desktop\Solo-Renderer\Solo-App\src\Test\TestMainMenu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\JoyJacksoon\Desktop\Solo-Renderer\Solo-App\src\Test\TestSampleScene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="C:\Users\JoyJacksoon\Desktop\Solo-Renderer\Solo-App\src\SoloApp.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="C:\Users\JoyJacksoon\Desktop\Solo-Renderer\Solo-App\src\Test\Test.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\JoyJacksoon\Desktop\Solo-Renderer\Solo-App\src\Test\TestMainMenu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\JoyJacksoon\Desktop\Solo-Renderer\Solo-App\src\Test\TestSampleScene.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
