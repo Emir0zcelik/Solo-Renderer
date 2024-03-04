@@ -64,11 +64,11 @@ Upon launching the application, you'll encounter the following buttons:
 
 In the Sample Scene, you'll find:
 
-**Screen View:** Visual representation of the scene.
+- **Screen View:** Visual representation of the scene.
 
-**Console Output:** Output console for relevant information.
+- **Console Output:** Output console for relevant information.
 
-**Properties Panel:** Allows you to dynamically change variables during runtime.
+- **Properties Panel:** Allows you to dynamically change variables during runtime.
 
 ## 3rd Party Libraries
 
