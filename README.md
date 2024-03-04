@@ -28,13 +28,15 @@ Before you begin, make sure you have the following installed:
 
 ```build\Solo-App\Debug\SoloApp.exe```
 
-#### All-in-One Build
+### all.bat:
 
 After the initial build, you can use the following script to perform all steps in one go:
 
-### all.bat:
+```CALL rescan.bat```
 
-rescan.bat && build.bat && run.bat
+```CALL build.bat```
+
+```CALL run.bat```
 
 ## Additional Dependencies
 
