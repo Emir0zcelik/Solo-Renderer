@@ -54,6 +54,16 @@ GLFWwindow* Window::InitWindow(int width, int height, std::string windowName)
 
     std::cout << "Using GL Version: " << glGetString(GL_VERSION) << std::endl;
 
+    Folder folder;
+    std::string currentDir = folder.GetCWD();
+    std::cout << currentDir << std::endl;
+    currentDir += "/Solo-Core/res/solo_mini_logo.png";
+
+    GLFWimage images[1];
+    images[0].pixels = stbi_load(currentDir.c_str(), &images[0].width, &images[0].height, 0, 4);
+    glfwSetWindowIcon(window, 1, images);
+    stbi_image_free(images[0].pixels);  
+
     return window;
 }
 

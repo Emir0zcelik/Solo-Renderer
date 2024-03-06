@@ -5,24 +5,23 @@ namespace test
     TestMainMenu::TestMainMenu()
     :   m_Color(glm::vec4(0.2f, 0.3f, 0.7f, 1.0f)),
         m_Positions{
-            -0.5f, -0.5f, // 0 Left Corner
-             0.5f, -0.5f, // 1 Right Corner 
-             0.0f,  0.5f, // 2 Upper Corner
-
-			// 300.0f, 200.0f, 0.0f, 0.0f, //Down Left Corner 
-			// 400.0f, 400.0f, 0.0f, 1.0f, //Up Left Corner   
-			// 500.0f, 200.0f, 1.0f, 0.0f, //Down Right Corner
+        300.0f, 400.0f, 0.0f, 0.0f, // Down Left Corner
+		300.0f, 600.0f, 0.0f, 1.0f, // Up Left Corner
+		700.0f, 400.0f, 1.0f, 0.0f, // Down Right Corner
+		700.0f, 600.0f, 1.0f, 1.0f, // Up Right Corner
         },
 
         m_Indices{
             0, 1, 2,
+            1, 3, 2
         },
-
+        _currentDir(_folder.GetCWD()),
         m_Va(),
-        m_Vb(m_Positions, 2 * 3 * sizeof(float)),
-        m_Ib(m_Indices, 3),
+        m_Vb(m_Positions, 4 * 4 * sizeof(float)),
+        m_Ib(m_Indices, 6),
         m_Layout(), 
-        m_Shader("Solo-Core/src/Shader/MainMenu.shader"),
+        m_Shader(_currentDir + "/Solo-Core/src/Shader/MainMenu.shader"),
+        m_SoloLogo(_currentDir + "/Solo-Core/res/Solo_Logo.png"),
         m_Renderer(),
         m_Width(0),
         m_Height(0),
@@ -35,11 +34,11 @@ namespace test
 	    m_Mvp(m_Proj * m_View * m_Model)
     {
         m_Layout.Push<float>(2);
-	    // m_Layout.Push<float>(2);
+	    m_Layout.Push<float>(2);
 	    m_Va.AddBuffer(m_Vb, m_Layout);
 
-	    // glEnable(GL_BLEND);
-	    // glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
+	    glEnable(GL_BLEND);
+	    glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
 
     }
 
@@ -57,17 +56,19 @@ namespace test
     {
         m_Renderer.Clear();
 
-	    // m_Shader.SetUniformMat4f("u_MVP", m_Mvp);
 
-        // m_Shader.SetUniform4f("u_Color", 0.2f, 0.3f, 0.7f, 1.0f);
+	    glm::mat4 trans = glm::mat3(1.0f);
+	    trans = glm::translate(trans, glm::vec3(0.0f, 0.0f, 0.0f));
+	    trans = glm::scale(trans, glm::vec3(0.75f, 0.75f, 0.75f));
+	    trans = glm::rotate(trans, (float)glfwGetTime() / 2, glm::vec3(0.0f, 1.0f, 0.0f));
 
-        m_Shader.Bind();
-        m_Va.Bind();
-        m_Ib.Bind();
+	    m_Shader.SetUniformMat4f("u_Transform", trans);
+	    m_Shader.SetUniformMat4f("u_MVP", m_Mvp);
 
-        glDrawArrays(GL_TRIANGLES, 0, 3);
-        
-	    // m_Renderer.Draw(m_Va, m_Ib, m_Shader);
+	    m_SoloLogo.Bind();
+	    m_Shader.SetUniform1i("u_Texture", 0);
+	    glViewport(0, 0, 1000, 750);
+	    m_Renderer.Draw(m_Va, m_Ib, m_Shader);
     }
 
     void TestMainMenu::OnImGuiRender()

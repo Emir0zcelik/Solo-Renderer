@@ -290,8 +290,12 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ClInclude Include="C:\Users\JoyJacksoon\Desktop\Solo-Renderer\Solo-Core\src\Window\Window.h" />
     <ClCompile Include="C:\Users\JoyJacksoon\Desktop\Solo-Renderer\Solo-Core\src\Folder\Folder.cpp" />
     <ClInclude Include="C:\Users\JoyJacksoon\Desktop\Solo-Renderer\Solo-Core\src\Folder\Folder.h" />
+    <ClCompile Include="C:\Users\JoyJacksoon\Desktop\Solo-Renderer\Solo-Core\src\Renderer\Texture.cpp" />
+    <ClInclude Include="C:\Users\JoyJacksoon\Desktop\Solo-Renderer\Solo-Core\src\Renderer\Texture.h" />
     <ClCompile Include="C:\Users\JoyJacksoon\Desktop\Solo-Renderer\Solo-Core\src\ImGui\imgui_impl_glfw_gl3.cpp" />
     <ClInclude Include="C:\Users\JoyJacksoon\Desktop\Solo-Renderer\Solo-Core\src\ImGui\imgui_impl_glfw_gl3.h" />
+    <ClCompile Include="C:\Users\JoyJacksoon\Desktop\Solo-Renderer\Solo-Core\src\STB\stb_image.cpp" />
+    <ClInclude Include="C:\Users\JoyJacksoon\Desktop\Solo-Renderer\Solo-Core\src\STB\stb_image.h" />
     <None Include="C:\Users\JoyJacksoon\Desktop\Solo-Renderer\Solo-Core\src\Shader\MainMenu.shader">
     </None>
   </ItemGroup>

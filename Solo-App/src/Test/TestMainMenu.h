@@ -1,7 +1,10 @@
 #pragma once
 
 #include "Test.h"
-#include "../../Solo-Core/src/Renderer/Renderer.h"
+#include "Renderer/Renderer.h"
+#include "Renderer/Texture.h"
+#include "Folder/Folder.h"
+
 
 #include "glm/glm.hpp"
 #include "glm/gtc/matrix_transform.hpp"
@@ -11,9 +14,12 @@ namespace test
     class TestMainMenu : public Test
     {
 		private:
+			Folder _folder;
+			std::string _currentDir;
+
 			glm::vec4 m_Color;
-			float m_Positions[6];
-			unsigned int m_Indices[3];
+			float m_Positions[16];
+			unsigned int m_Indices[6];
 
 			VAO m_Va;
 			VBO m_Vb;
@@ -21,6 +27,7 @@ namespace test
 			IBO m_Ib;
 			Shader m_Shader;
 			Renderer m_Renderer;
+			Texture m_SoloLogo;
 			
 			glm::mat4 m_Proj;
 			glm::mat4 m_View;

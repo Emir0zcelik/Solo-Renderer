@@ -13,7 +13,9 @@ add_library(Solo-Core
 "src/Renderer/Shader.cpp" "src/Renderer/Shader.h"
 "src/Window/Window.cpp" "src/Window/Window.h"
 "src/Folder/Folder.cpp" "src/Folder/Folder.h"
+"src/Renderer/Texture.cpp" "src/Renderer/Texture.h"
 "src/ImGui/imgui_impl_glfw_gl3.cpp" "src/ImGui/imgui_impl_glfw_gl3.h"
+"src/STB/stb_image.cpp" "src/STB/stb_image.h"
 "src/Shader/MainMenu.shader"
 )
 

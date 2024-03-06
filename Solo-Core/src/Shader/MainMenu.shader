@@ -1,21 +1,31 @@
-// #shader vertex
-// #version 330 core
+#shader vertex
+#version 330 core
 
-// layout (location = 0) in vec3 aPos;
+layout(location = 0) in vec4 aPosition;
+layout(location = 1) in vec2 aTexCoord;
 
-// void main()
-// {
-// 	gl_Position = vec4(aPos.x, aPos.y, aPos.z, 1.0);
-// };
 
-// #shader fragment
-// #version 330 core
+out vec2 v_TexCoord;
 
-// out vec4 FragColor;
+uniform mat4 u_Transform;
+uniform mat4 u_MVP;
 
-// uniform vec4 u_Color;
+void main()
+{
+    gl_Position = u_Transform * u_MVP * aPosition;
+    v_TexCoord = aTexCoord;
+};
 
-// void main()
-// {
-// 	FragColor = vec4(1.0f, 0.5f, 0.2f, 1.0f);
-// };
+#shader fragment
+#version 330 core
+
+in vec2 v_TexCoord;
+
+layout(location = 0) out vec4 color;
+uniform sampler2D u_Texture;
+
+void main()
+{
+    vec4 texColor = texture(u_Texture, v_TexCoord);
+    color = texColor;
+};
