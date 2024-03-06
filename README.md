@@ -77,7 +77,8 @@ In the Sample Scene, you'll find:
  - [Dear ImGui](https://github.com/ocornut/imgui)
  - [GLFW](https://github.com/glfw/glfw)
  - [GLAD](https://github.com/Dav1dde/glad)
- - [GLM](https://github.com/g-truc/glm) 
+ - [GLM](https://github.com/g-truc/glm)
+ - [stb](https://github.com/nothings/stb)
 
 
 ## Notes
